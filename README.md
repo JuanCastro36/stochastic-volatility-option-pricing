@@ -140,13 +140,10 @@ stochastic-volatility-option-pricing/
 │
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 │
 ├── notebooks/
 │   └── 01_black_scholes_vs_merton_garman.ipynb
 │
-├── data/
-│   └── README.md
 │
 └── reports/
     ├── figures/
@@ -170,16 +167,8 @@ The notebook expects one options file and one volatility file per stock.
 Example expected files:
 
 ```text
-opcion_AMZN.csv
-volatilidad_AMZN.csv
-opcion_TSLA.csv
-volatilidad_TSLA.csv
-opcion_GOOGL.csv
-volatilidad_GOOGL.csv
-opcion_AAPL.csv
-volatilidad_AAPL.csv
-opcion_MSFT.csv
-volatilidad_MSFT.csv
+option_AMZN.csv
+volatility_AMZN.csv
 ```
 
 In this version, the CSV files are expected to be in the same folder as the notebook.
